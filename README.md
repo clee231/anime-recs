@@ -1,0 +1,1 @@
+A rudimentary anime recommendation script taken mainly from  emmagrimaldi on github that I modified to work with an anime dataset.
