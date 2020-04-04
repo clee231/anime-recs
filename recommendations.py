@@ -15,7 +15,7 @@ args = parser.parse_args()
 
 anime_input = args.entry
 
-df = pd.read_csv("C:\\Users\\gonza\\Documents\\myanimelist-dataset\\anime_cleaned.csv")
+df = pd.read_csv("anime_cleaned.csv")
 # df.info(memory_usage='deep')
 
 df = df[['title','title_english','source', 'genre', 'score']]
